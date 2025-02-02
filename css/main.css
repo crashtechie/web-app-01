@@ -1,0 +1,47 @@
+.page-header{
+    text-align: center;
+    padding: 20px;
+    background-color: bisque;
+    border: 3px solid black;
+}
+body{
+    box-sizing: border-box;
+}
+.page-nav{
+    width: 25%;
+    float: left;
+    background: lightsteelblue;
+}
+main{
+    width: 75%;
+    height: 50%;
+    float: left;
+    background: beige;
+}
+.page-footer{
+    position: absolute;
+    bottom: 1px;
+    width: 100%;
+    height: 25%;
+    background: green;
+
+}
+.page-nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border: 1px solid dimgray;
+    text-align: center;
+}
+
+.page-nav li a{
+    text-align: center;
+    border-bottom: 1px solid dimgray;
+    display: block;
+    padding: 6px 12px;
+    color: blue;
+}
+.page-nav li a:hover{
+    color: aqua;
+    background-color: darkorchid;
+}
