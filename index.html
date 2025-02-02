@@ -1,10 +1,18 @@
 <!DOCTYPE html>
+<!--
+Author: Dan Smith
+Date Created: 2025-02-02
+Last Modified: 2025-02-02
+Purpose: This page is intended as the main entry point of the site
+-->
 <html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <title>My Test Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css">
 </head>
-<link rel="stylesheet" href="css/main.css">
-<body>
+<body class="main-body">
+
 <header class="page-header">
     <h1>HOME PAGE</h1>
 </header>
@@ -15,26 +23,18 @@
         <li><a href="page1.html">second page</a></li>
     </ul>
 </nav>
-
-<main>
-    <section>
-        <header class="section-header">
-            <h2>This is a section.</h2>
+<main class="page-main">
+    <Section id="introSection">
+        <header id="introHeader">
+            <h2>Introduction</h2>
         </header>
-        <details class="section-details">
-            <p>A section is an area where chapter, introductions, news items, and contact information would be presented.</p>
-            <figure class="section-figure">
-                <img src="images/gyeongbokgung.jpg" alt="Gyeongbokgung Monk Photo">
-            </figure>
-        </details>
-    </section>
-    <article>
-        <h2>This is an article</h2>
-        <p>Articles are where forum posts, blog posts, user comments, product cards, and newspaper articles are presented.</p>
-    </article>
+        <p class="introParagraph" id="introP1">Welcome to the main page of my website project.</p>
+        <p class="introParagraph" id="introP2">The idea of this project is to play with different web design concepts.</p>
+    </Section>
 </main>
 <footer class="page-footer">
-    <h3>footer</h3>
+    <p>This page is created for educational purposes only.</p>
 </footer>
 </body>
+
 </html>
